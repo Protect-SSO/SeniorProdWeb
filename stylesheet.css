@@ -45,10 +45,17 @@ img {
     color: white;
     margin: 0;
     padding: 0;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 p {
     font-size: 45px;
+    margin-top: 30px;
+    overflow: hidden;
 }
 
 .center-container {
@@ -69,15 +76,19 @@ p {
 }
 
 .side-by-side {
-    margin: 0 60px; /* Add margin to create space between the two elements */
+    margin: 0 60px; 
 }
 
 .side-by-side-word {
-    margin: 0 450px; /* Add margin to create space between the two elements */
+    margin: 0 450px; 
 }
 .side-by-side-name {
-    margin: 0 60px; /* Add margin to create space between the two elements */
+    margin: 0 60px;
 }
+.side-by-side-class {
+    margin: 0 640px;
+}
+
 h3 {
     align-items: center;
     width: 250px; /* Set the width */
@@ -88,4 +99,9 @@ h3 {
 
 #top {
     margin-top: 20px;
+}
+h4 {
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
